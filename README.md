@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+Final Project - Web Application Development
+📅 Term: Fall 2024
+🏫 Course: CS 601 O2 Web Application Development
+👨‍💻 Author: Anuarbek Zharas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📌 Project Overview
+This is a personal portfolio web application built using React.js and TypeScript. The app includes key sections such as:
 
-## Available Scripts
+Home Page: Overview of the portfolio.
+Gallery: Image gallery with modal view.
+Contact: Contact form saving messages to a backend.
+🚀 Features
+React + TypeScript: Modern frontend development.
+Node.js Backend: REST API for form submissions.
+Firebase/JSON Storage (Optional): Save contact messages.
+Responsive Design: Works across desktop and mobile devices.
+GitHub Pages Deployment: Hosted live app.
+📂 Project Structure
+bash
+Copy code
+/FinalProject
+  ├── /public
+  ├── /src
+  │   ├── /components
+  │   │   ├── App.tsx
+  │   │   ├── Contact.tsx
+  │   │   ├── Gallery.tsx
+  │   │   └── Header.tsx
+  │   ├── /data
+  │   │   └── gallery.json
+  │   ├── /styles
+  │   │   └── Contact.css
+  │   ├── index.tsx
+  │   └── firebaseConfig.ts (optional)
+  ├── /server
+  │   ├── server.js
+  │   └── messages.json
+  ├── package.json
+  └── README.md
+🛠️ Tech Stack
+Frontend:
 
-In the project directory, you can run:
+React.js (TypeScript)
+CSS Modules
+HTML5 / CSS3 / JavaScript
+React Router
+Backend (Optional):
 
-### `npm start`
+Node.js
+Express.js
+Firebase Firestore / JSON file storage
+📦 Installation & Setup
+Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+git clone https://github.com/USERNAME/REPO_NAME.git
+cd REPO_NAME
+Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm install
+Start the React app:
 
-### `npm test`
+bash
+Copy code
+npm start
+Start the backend server (optional):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+cd server
+node server.js
+Visit the app in your browser:
 
-### `npm run build`
+arduino
+Copy code
+http://localhost:3000
+🚀 Deployment
+The project is deployed using GitHub Pages. Visit the live version:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👉 Live Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📸 Screenshots
+Home Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Gallery
 
-### `npm run eject`
+Contact Form
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🤝 Contributing
+Feel free to fork the repository and submit a pull request for improvements.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📄 License
+This project is licensed under the MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📧 Contact
+For any inquiries, feel free to contact me:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: mygmail@gmail.com
+GitHub: Anuarbek Zharas
