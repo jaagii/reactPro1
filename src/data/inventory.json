@@ -1,0 +1,9 @@
+[
+    { "sku": "001", "name": "Apples", "qty": 30, "price": 1.75, "image": "images/1.jpg", "description" : "Generic Red Delicious Apples, Fresh Fruit, USA Grown, Non-GMO" },
+    { "sku": "002", "name": "Oranges", "qty": 20, "price": 1.25, "image": "images/2.jpg", "description" : "Florida Navel Fresh Oranges. Navel Oranges are the perfect seedless eating orange. " },
+    { "sku": "003", "name": "Bananas", "qty": 25, "price": 0.98, "image": "images/3.jpg", "description" : "Fresh Bananas 3 Pounds by La Chatelaine Farms." },
+    { "sku": "004", "name": "Tomatoes", "qty": 15, "price": 1.15, "image": "images/4.jpg", "description" : "Roma Tomato Seeds Heirloom Heritage Breed Premium Seed Packet" },
+    { "sku": "005", "name": "Lettuce", "qty": 18, "price": 2.50, "image": "images/5.jpg", "description" : "Romaine Lettuce Seeds - Parris Island - 1200 Heirloom." },
+    { "sku": "006", "name": "Cheese", "qty": 100, "price": 3.35, "image": "images/6.jpg", "description" : "Brand: Schultz's Cheese Haus." }
+  ]
+  

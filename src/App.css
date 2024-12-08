@@ -1,0 +1,53 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Makes the container at least the height of the viewport */
+}
+
+/* The main content should grow to take available space */
+main {
+  flex: 1; /* Fills the remaining space between the header and footer */
+  padding: 20px;
+}
+
+.header {
+  background-color: #283593;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.inventory-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.inventory-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.footer {
+  text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+  position: relative; /* Default to relative */
+}
+
+
+main h2 {
+  text-align: center;
+  font-size: 2rem; /* Optional: Adjust font size */
+  margin-bottom: 20px; /* Optional: Add some space below the heading */
+  color: #333; /* Optional: Change text color */
+}
+
+
